@@ -1,0 +1,251 @@
+@font-face {
+  font-family: "HankenGrotesk";
+  src: url("assets/HankenGrotesk-variablefont_wght.ttf") format("truetype");
+}
+
+body {
+  font-family: "HankenGrotesk", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ecf2ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 1.5rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 80%;
+  max-width: 18rem;
+}
+
+.result-card {
+  background: linear-gradient(to bottom, #7857ff, #2e2be9);
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result-card p:first-child {
+  color: lightgrey;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.7rem;
+}
+
+.result-circle {
+  width: 7rem;
+  height: 7rem;
+  background: linear-gradient(to bottom, #4e21ca, #2421bb);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.score span {
+  font-size: 2rem;
+  font-weight: 800;
+  color: white;
+}
+.score .light-grey {
+  font-size: 0.8rem;
+  font-weight: 200;
+  color: lightgrey;
+  opacity: 0.5;
+}
+.result-text {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.description {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-top: auto;
+}
+
+.summary-card {
+  padding: 1rem;
+}
+
+h2 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.summary-item {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.reaction {
+  background: rgba(255, 87, 87, 0.1);
+  color: #ff5757;
+}
+
+.memory {
+  background: rgba(255, 176, 31, 0.1);
+  color: #ffb01f;
+}
+
+.verbal {
+  background: rgba(0, 189, 145, 0.1);
+  color: #00bd91;
+}
+
+.visual {
+  background: rgba(17, 37, 212, 0.1);
+  color: #1125d4;
+}
+
+.summary-item img {
+  margin-right: 0.5rem;
+}
+
+.summary-text {
+  flex-grow: 1;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: 500;
+}
+
+.score-value {
+  font-weight: 500;
+  color: black;
+  margin-left: 4.3rem;
+}
+
+.verbal .score-value {
+  margin-left: 5.4rem;
+}
+
+.visual .score-value {
+  margin-left: 5.4rem;
+}
+.light-grey {
+  color: grey;
+  font-weight: 400;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.8rem;
+  background: #303b5a;
+  color: white;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 2rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #242f4d;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    max-width: 38rem;
+    max-height: 28.5rem;
+  }
+
+  .result-card {
+    flex: 1;
+    border-radius: 1.5rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .result-circle {
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .result-card p:first-child {
+    font-size: 1.2rem;
+    margin-bottom: 1.4rem;
+  }
+
+  .score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .score span {
+    font-size: 3.2rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    color: white;
+    font-weight: bold;
+    line-height: 1;
+  }
+
+  .score .light-grey {
+    font-size: 1rem;
+    opacity: 0.6;
+    margin-top: -0.5rem;
+    display: block;
+    text-align: center;
+  }
+
+  .result-text {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .description {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+
+  .summary-card {
+    flex: 1;
+    padding: 1.5rem;
+  }
+
+  .summary-item {
+    padding: 0.75rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .score {
+    font-weight: bold;
+    display: flex;
+    gap: 0.1rem;
+  }
+}
