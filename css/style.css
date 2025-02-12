@@ -26,7 +26,7 @@ body {
 }
 
 .result-card {
-  background: linear-gradient(to bottom, #7857ff, #2e2be9);
+  background: linear-gradient(to bottom, #7857ff, #4634ec);
   color: white;
   text-align: center;
   padding: 1.5rem;
@@ -47,7 +47,7 @@ body {
 .result-circle {
   width: 7rem;
   height: 7rem;
-  background: linear-gradient(to bottom, #4e21ca, #2421bb);
+  background: linear-gradient(to bottom, #4a23cc, #4734ef);
   border-radius: 50%;
   display: flex;
   justify-content: center;
