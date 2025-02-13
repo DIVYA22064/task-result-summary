@@ -26,12 +26,11 @@ body {
 }
 
 .result-card {
-  background: linear-gradient(to bottom, #7857ff, #4634ec);
+  background: linear-gradient(to bottom, #6743ff, #312ceb);
   color: white;
   text-align: center;
-  padding: 1.5rem;
-  border-bottom-left-radius: 1.5rem;
-  border-bottom-right-radius: 1.5rem;
+  padding: 2rem;
+  border-radius: 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,7 +38,7 @@ body {
 
 .result-card p:first-child {
   color: lightgrey;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 500;
   margin-bottom: 0.7rem;
 }
@@ -56,12 +55,12 @@ body {
 }
 
 .score span {
-  font-size: 2rem;
+  font-size: 3.5rem;
   font-weight: 800;
   color: white;
 }
 .score .light-grey {
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 200;
   color: lightgrey;
   opacity: 0.5;
@@ -72,7 +71,7 @@ body {
 }
 
 .description {
-  font-size: 0.9rem;
+  font-size: 1rem;
   opacity: 0.8;
   margin-top: auto;
 }
@@ -191,7 +190,7 @@ h2 {
 
   .result-card p:first-child {
     font-size: 1.2rem;
-    margin-bottom: 1.4rem;
+    margin-bottom: 1.5rem;
   }
 
   .score {
@@ -202,7 +201,7 @@ h2 {
   }
 
   .score span {
-    font-size: 3.2rem;
+    font-size: 4rem;
     margin-top: 2rem;
     margin-bottom: 0;
     color: white;
@@ -211,7 +210,7 @@ h2 {
   }
 
   .score .light-grey {
-    font-size: 1rem;
+    font-size: 1.2rem;
     opacity: 0.6;
     margin-top: -0.5rem;
     display: block;
@@ -219,13 +218,13 @@ h2 {
   }
 
   .result-text {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-top: 2rem;
     margin-bottom: 0.2rem;
   }
 
   .description {
-    margin-top: 2rem;
+    margin-top: 1.3rem;
     margin-bottom: 1rem;
     font-size: 1rem;
     font-weight: 300;
